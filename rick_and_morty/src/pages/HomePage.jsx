@@ -1,4 +1,5 @@
 import React from "react";
+<<<<<<< Updated upstream
 import { Link } from "react-router-dom";
 
 const HomePage = () => {
@@ -18,6 +19,19 @@ const HomePage = () => {
                 <Link to="/Season_1" className="text-white mx-4">Season 1</Link>
                 <Link to="/Season_2" className="text-white mx-4">Season 2</Link>
                 <Link to="/settings" className="text-white mx-4">Settings</Link>
+=======
+
+const HomePage = () => {
+    return (
+        <div className="flex items-center justify-center h-full text-center bg-gray-900">
+            <div>
+                <h1 className="text-5xl font-bold text-white mb-4">
+                    Multiverse Mayhem
+                </h1>
+                <h2 className="text-2xl font-semibold text-white">
+                    A Rick and Morty Fan Site
+                </h2>
+>>>>>>> Stashed changes
             </div>
         </div>
     );

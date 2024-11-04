@@ -1,4 +1,5 @@
 import React from "react";
+<<<<<<< Updated upstream
 import { Outlet, Link } from "react-router-dom";
 import NavBar from "./pages/NavBar";
 import backgroundVideo from "./assets/backgroundVideo.mp4";
@@ -25,3 +26,22 @@ export default function App() {
   );
 }
 
+=======
+import HomePage from "./pages/HomePage";
+import "./index.css";
+
+function App() {
+    return (
+      <>
+      <h1 className="text-red-500">
+        Test Tailwind
+      </h1>
+        <div className="h-screen">
+            <HomePage />
+        </div>
+      </>
+    );
+}
+
+export default App;
+>>>>>>> Stashed changes
